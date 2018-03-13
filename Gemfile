@@ -14,6 +14,11 @@ gem 'sass-rails', '>= 3.2'
 
 group :development, :test do
   gem 'byebug', platform: :mri
+  gem "rspec-rails"
+  gem "capybara"
+  gem "launchy"
+  gem "pry"
+  gem "nyan-cat-formatter"
 end
 
 group :development do
